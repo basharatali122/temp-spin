@@ -104,7 +104,7 @@ export const GAMES = [
     GAME_VERSION:  '2.0.1',
     ORIGIN:        'http://play.pandamaster.vip',
     noWeekendSpin: false,
-    workers:       15,   // PM bans IPs aggressively — keep lower
+    workers:       1,   // PM bans IPs aggressively — keep lower
     note:          'Strict IP limits — use dedicated proxies',
   },
   {
@@ -117,7 +117,7 @@ export const GAMES = [
     GAME_VERSION:  '2.0.1',
     ORIGIN:        'https://play.milkywayapp.xyz',
     noWeekendSpin: false,
-    workers:       33,
+    workers:       1,
     note:          null,
   },
   {
@@ -130,7 +130,7 @@ export const GAMES = [
     GAME_VERSION:  '2.0.1',
     ORIGIN:        'http://okay.jkgame.vip',
     noWeekendSpin: true,
-    workers:       15,
+    workers:       1,
     note:          null,
   },
   {
@@ -143,7 +143,7 @@ export const GAMES = [
     GAME_VERSION:  '2.0.1',
     ORIGIN:        'http://34.213.5.211',
     noWeekendSpin: true,
-    workers:       30,
+    workers:       1,
     note:          null,
   },
   {
@@ -156,7 +156,7 @@ export const GAMES = [
     GAME_VERSION:  '2.0.1',
     ORIGIN:        'http://54.244.43.127',
     noWeekendSpin: false,
-    workers:       30,
+    workers:       1,
     note:          null,
   },
 ];
